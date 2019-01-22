@@ -150,6 +150,12 @@ c(yes,right)->e
 c(no, top)->opl
 ```
 
+```seq
+A-->B
+B<--A
+```
+
+
 10、复选框
 
 - [x] 需求分析

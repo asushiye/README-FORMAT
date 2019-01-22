@@ -112,25 +112,26 @@ TD 同TB
 
 从上到下
 
-mermaid
+```mermaid
 graph TB
    A --> B
+```
 
 从右到左
-mermaid
+```mermaid
 graph RL
    id[A] --> (B)
-
+```
 从右到左
-mermaid
+```mermaid
 graph RL
    id[A] --> (B)
-
-mermaid
+```
+```mermaid
 graph RL
    id((A)) -- 描述 --> {B}
    id1((A)) -- 描述 --> {C}
-
+```
 
 
 参考：

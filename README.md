@@ -8,7 +8,7 @@ README.md 是使用MarkDown语法来编写的，下面介绍主要的使用格�
     6、粗体、斜体、删除线  * * *** ***  ~~ ~~
     7、华丽的分割线 ---
     8、表格   |col1|col2|
-    9、流程图   mermaid
+    9、流程图   mermaid **github 不支持**
     10、复选框 - [x] 名称
     11、表情emoji
 ---
@@ -80,6 +80,9 @@ public class MyClass{
 
 
 9、流程图   mermaid
+
+
+**github 暂时还不支持**
 
 语法如下：
 ```

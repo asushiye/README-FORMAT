@@ -10,7 +10,7 @@ README.md 是使用MarkDown语法来编写的，下面介绍主要的使用格�
     8、表格   |col1|col2|
     9、流程图   mermaid
     10、复选框 - [x] 名称
-
+    11、表情emoji
 ---
 
 1、标题
@@ -160,6 +160,13 @@ B<--A: response
 - [x] 需求分析
 - [ ] 交付
 
+11、表情
+
+:smile:
+
+更多表情
+
+[emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 参考：
 https://daringfireball.net/projects/markdown/syntax

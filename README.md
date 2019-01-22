@@ -4,12 +4,12 @@ README.md 是使用MarkDown语法来编写的，下面介绍主要的使用格�
     2、列表   * 或 1.空格
     3、区块引用  >
     4、超链接、图片引用 [name](url)
-    5、代码框          `code`  或```code```
+    5、代码框          `code`  或```code``` + 语言
     6、粗体、斜体、删除线  * * *** ***  ~~ ~~
     7、华丽的分割线 ---
     8、表格   |col1|col2|
     9、流程图   mermaid
-
+    10、复选框 - [x] 名称
 
 ---
 
@@ -55,6 +55,12 @@ public class MyClass{
 }
 ```
 
+高亮显示
+``` java
+public class MyClass{
+    String name= "zhenyun.su"
+}
+```
 
  
 6、粗体、斜体、删除线
@@ -133,16 +139,22 @@ graph RL
    id1((A)) -- 描述 --> {C}
 ```
  
-``` flow
+```flow
 st=>start :开始
-opl=>operation: A
+op1=>operation: A
 c=>condition: yes or no?
 e=>end: 结束
 
-st(right) ->opl(right)->c
+st(right) ->op1(right)->c
 c(yes,right)->e
-
+c(no, top)->opl
 ```
+
+10、复选框
+
+- [x] 需求分析
+- [ ] 交付
+
 
 参考：
 https://daringfireball.net/projects/markdown/syntax

@@ -132,7 +132,17 @@ graph RL
    id((A)) -- 描述 --> {B}
    id1((A)) -- 描述 --> {C}
 ```
+ 
+``` flow
+st=>start :开始
+opl=>operation: A
+c=>condition: yes or no?
+e=>end: 结束
 
+st(right) ->opl(right)->c
+c(yes,right)->e
+
+```
 
 参考：
 https://daringfireball.net/projects/markdown/syntax

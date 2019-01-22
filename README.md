@@ -139,21 +139,20 @@ graph RL
    id1((A)) -- 描述 --> {C}
 ```
  
-```flow
+``` flow
 st=>start :开始
 op1=>operation: A
 c=>condition: yes or no?
 e=>end: 结束
 
 st(right) ->op1(right)->c
-c(yes,right)->e
-c(no, top)->opl
 ```
 
-```seq
-A-->B
-B<--A
+``` seq
+A->B: request
+B<--A: response
 ```
+
 
 
 10、复选框
